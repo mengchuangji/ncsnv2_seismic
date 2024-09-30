@@ -82,7 +82,7 @@ For example, we can train an NCSNv2 on Marmousi (mat file format) by running the
 python main_mcj_seismic.py --config marmousi.yml --doc marmousi
 ```
 
-Log files will be saved in `<exp>/logs/marmousi`.
+Log files will be saved in `<exp>/logs/marmousi`
 
 For example, we can train an NCSNv2 on Marmousi and [Opensegy]("http://s3.amazonaws.com/open.source.geoscience/open_data) (mat or SEGY/SGY file format) by running the following
 
@@ -113,7 +113,7 @@ This is a schematic diagram of interpolating latent variables in latent space an
 ## Pretrained Checkpoints
 
 
-We provide two trained models and log files in files `<exp>/logs/marmousi_v2_nm` and `<exp>/logs/MmsSegyopenf`
+We provide two trained models and log files in files `<exp>/logs/marmousi_v2_nm` and `<exp>/logs/MmsSegyopenf`.  see [model](https://pan.baidu.com/s/1p5y_JC1AWSD7QCWRsSwMFw?pwd=1111), 提取码: 1111.
 
 You can produce samples using it on all datasets we tested in the paper. It assumes the `--exp` argument is set to `exp`.
 
