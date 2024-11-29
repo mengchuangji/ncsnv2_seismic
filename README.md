@@ -12,7 +12,7 @@ This is an example of real marmousi data and generated marmousi data.
 
 ![mms_true_gen_com](assets/mms_true_gen_com.jpg)
 
-(**From left to right**: 100 randomly collected samples of size 128$times$128 from target data set Marmousi , our
+(**From left to right**: 100 randomly collected samples of size 128\*128 from target data set Marmousi , our
 randomly generated 100 samples of size 128\*128 
 
 ## Running Experiments
