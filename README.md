@@ -105,7 +105,7 @@ python main_mcj_seismic_sampling.py --sample --config marmousi.yml -i marmousi
 
 Samples will be saved in `<exp>/image_samples/marmousi`.
 
-We can interpolate between different samples (see more details in the paper). Just set `interpolation` to `true` and an appropriate `n_interpolations` under the group of `sampling` in `bedroom.yml`. We can also perform other tasks such as inpainting. Usages should be quite obvious if you read the code and configuration files carefully.
+We can interpolate between different samples (see more details in the paper). Just set `interpolation` to `true` and an appropriate `n_interpolations` under the group of `sampling` in `marmousi.yml`. We can also perform other tasks such as inpainting. Usages should be quite obvious if you read the code and configuration files carefully.
 
 This is a schematic diagram of interpolating latent variables in latent space and generating samples.
 ![manifold](assets/manifold.jpg)
